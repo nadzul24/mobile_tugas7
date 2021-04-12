@@ -10,7 +10,7 @@ Popular Movie Page
 
 Detail Movie Page
 
-![alt text] (https://github.com/nadzul24/mobile_tugas7/blob/c658bb70ef24db03576be17f3258bba4f37ef5c5/Capture_praktikum%207.5_2.JPG)
+![alt text] (https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_praktikum%207.5_2.JPG?raw=true)
 
 ## Getting Started
 
