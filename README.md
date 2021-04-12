@@ -4,7 +4,13 @@ A new Flutter project.
 
 ## Praktikum 7.5
 
+Popular Movie Page
+
 ![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_praktikum%207.5.JPG)
+
+Detail Movie Page
+
+![alt text] (https://github.com/nadzul24/mobile_tugas7/blob/c658bb70ef24db03576be17f3258bba4f37ef5c5/Capture_praktikum%207.5_2.JPG)
 
 ## Getting Started
 
