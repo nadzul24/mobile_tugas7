@@ -2,6 +2,16 @@
 
 A new Flutter project.
 
+## Praktikum 7.5
+
+Popular Movie Page
+
+![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_praktikum%207.5.JPG)
+
+Detail Movie Page
+
+![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_praktikum%207.5_2.JPG)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
