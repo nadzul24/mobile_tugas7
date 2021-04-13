@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:jobsheet07/commons/constants.dart';
 import 'package:jobsheet07/models/movie.dart';
 
 class MovieDetail extends StatelessWidget {
@@ -20,24 +21,72 @@ class MovieDetail extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
-        title: Text(movie.title),
+        backgroundColor: Colors.black54,
+        title: Text(
+          'Movie Details',
+          textAlign: TextAlign.center,
+        ),
       ),
       body: SingleChildScrollView(
-          child: Center(
         child: Column(
-          children: [
+          children: <Widget>[
             Container(
               padding: EdgeInsets.all(16),
               height: height / 1.5,
               child: Image.network(path),
             ),
-            Container(
-              child: Text(movie.overview),
-              padding: EdgeInsets.only(left: 16, right: 16),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  Text(
+                    movie.title + ' (' + movie.voteAverage.toString() + ') ',
+                    textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
+                  ),
+                  Wrap(
+                    children: <Widget>[
+                      for (var genre in genresBy(movie.genreIds))
+                        Chip(
+                          label: Text(genre.name),
+                        )
+                    ],
+                  ),
+                  Text(
+                    'Movie Overview: ',
+                    textAlign: TextAlign.left,
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
+                  ),
+                  Text(
+                    movie.overview,
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300),
+                  ),
+                  SizedBox(
+                    height: 40,
+                  )
+                ],
+              ),
             ),
           ],
         ),
-      )),
+      ),
     );
+
+    //     child: Center(
+    //   child: Column(
+    //     children: [
+    //       Container(
+    //         padding: EdgeInsets.all(16),
+    //         height: height / 1.5,
+    //         child: Image.network(path),
+    //       ),
+    //       Container(
+    //         child: Text(movie.overview),
+    //         padding: EdgeInsets.only(left: 16, right: 16),
+    //       ),
+    //     ],
+    //   ),
+    // )
   }
 }
