@@ -12,6 +12,16 @@ Detail Movie Page
 
 ![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_praktikum%207.5_2.JPG)
 
+## Challenge
+
+Popular Movie Page
+
+![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_challenge(1).JPG)
+
+Detail Movie Page
+
+![alt text](https://github.com/nadzul24/mobile_tugas7/blob/main/Capture_challenge(2).JPG)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
